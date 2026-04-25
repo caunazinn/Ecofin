@@ -1,12 +1,19 @@
-# React + Vite
+EcoFin - Gestão Financeira com Foco Educativo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+​O EcoFin é uma plataforma web projetada para ir além do simples registro de gastos. O objetivo principal do sistema é educar o usuário sobre saúde financeira, oferecendo ferramentas de controle integradas a uma interface intuitiva e recursos de aprendizado.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+​🚀 Tecnologias Utilizadas
+​O projeto utiliza uma arquitetura moderna dividindo as responsabilidades entre Front-end, Back-end e Banco de Dados:
+​Front-end: React com Vite
+​Back-end: Flask (Python)
+​Banco de Dados & Auth: Firebase
+​Estilização: CSS Moderno / Componentização
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+​📋 Funcionalidades Principais
+​Gestão de Transações: Adição, edição e exclusão de receitas e despesas.
+​Categorização Inteligente: Organização de gastos para facilitar a visualização de onde o dinheiro está sendo aplicado.
+​Módulo Educativo: O sistema conta com componentes como CardLicao e LessonPreview, focados em ensinar conceitos de economia ao usuário.
+​Dashboard Visual: Resumo financeiro através de SummaryCards e barras de Progress para metas.
+​Perfil do Usuário: Customização de dados e configurações de conta.
